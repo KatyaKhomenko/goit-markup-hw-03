@@ -148,6 +148,7 @@ body {
     height: 56px;
     display: block;
     border: none;
+    min-width: 169px;
 }
 
 .main-btn:hover,
