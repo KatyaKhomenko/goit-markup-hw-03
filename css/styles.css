@@ -160,7 +160,15 @@ body {
 
 
 .features {
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    gap: 24px; 
+
 }
 
 .features-item {}
