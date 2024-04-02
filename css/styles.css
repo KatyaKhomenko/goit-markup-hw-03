@@ -20,8 +20,7 @@ body {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9fc
-
+    border-bottom: 1px solid #e7e9fc;
 
 }
 
@@ -43,8 +42,7 @@ body {
 .header-nav {
     align-items: center;
     display: flex;
-    margin-left: 76;
-        margin-right: 332;
+    margin-left: 156px;
 }
 
 .header-title {
@@ -55,6 +53,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+    
 }
 
 .header-menu-list {
