@@ -15,11 +15,31 @@ body {
 }
 
 .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 
 }
 
-.header-nav {}
+.container {
+    max-width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.header-nav {
+    display: flex;
+    margin-left: 76;
+        margin-right: 332;
+}
 
 .header-title {
     font-family: "Raleway", sans-serif;
@@ -29,6 +49,23 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-address {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
+
+.header-address-link {
+    display: flex;
+    gap: 40px;
+    margin-left: 1 auto;
 }
 
 .header-title .accent {
