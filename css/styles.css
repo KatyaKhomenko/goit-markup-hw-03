@@ -203,6 +203,7 @@ body {
     padding-right: 156px;
     display: flex;
     gap: 24px;
+    
 }
 
 .features-item-subtitle {
@@ -213,6 +214,10 @@ body {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 8px;
+}
+
+.features-item {
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-item-title {
