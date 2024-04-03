@@ -11,6 +11,13 @@ img {
     display: block;
 }
 
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: flex;
+}
 
 
 body {
@@ -26,13 +33,7 @@ body {
 
 }
 
-.container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    display: flex;
-}
+
 
 .header-container {
     align-items: center;
