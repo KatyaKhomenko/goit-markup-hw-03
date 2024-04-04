@@ -215,7 +215,7 @@ body {
 }
 
 .features-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-item-title {
@@ -255,6 +255,11 @@ body {
 
 }
 
+.team-subtitle-title {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -262,7 +267,8 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-title {
@@ -271,7 +277,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    
+    text-align: center;
     
 }
 
