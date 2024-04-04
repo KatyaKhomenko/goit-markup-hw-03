@@ -78,8 +78,7 @@ body {
 }
 
 .header-menu-list {
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .header-title .accent {
@@ -94,6 +93,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu-link {
