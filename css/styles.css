@@ -77,6 +77,11 @@ body {
     margin-left: 1 auto;
 }
 
+.header-menu-list {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .header-title .accent {
     color: #2e2f42;
     font-family: "Raleway", sans-serif;
