@@ -253,6 +253,8 @@ body {
 .team-list {
     display: flex;
     gap: 24px;
+    margin: 0;
+    padding-left: 0;
 }
 
 .team-item {
