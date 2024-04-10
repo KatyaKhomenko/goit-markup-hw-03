@@ -28,8 +28,6 @@ body {
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 
 }
@@ -74,10 +72,16 @@ body {
 .header-address-link {
     display: flex;
     gap: 40px;
-    margin-left: 1 auto;
+    margin-left: auto;
+}
+
+.header-address-text {
+
 }
 
 .header-menu-list {
+    margin: 0 auto;
+    padding-left: 0;
 
 }
 
@@ -100,6 +104,7 @@ body {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -131,7 +136,7 @@ body {
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
-    margin-top: 17px;
+    
 }
 
 .container {
@@ -181,7 +186,7 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #FFFFFF;
-    display: flex;
+    
 }
 
 .container {}
@@ -221,6 +226,7 @@ body {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 8px;
+    margin: 0 auto;
 }
 
 .features-item {
@@ -232,6 +238,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 0 auto;
 }
 
 .team {
@@ -249,6 +256,7 @@ body {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
+    padding-left: 0;
 
 }
 
@@ -269,6 +277,8 @@ body {
 .team-subtitle-title {
     padding-top: 32px;
     padding-bottom: 32px;
+    margin: auto;
+
 }
 
 .team-subtitle {
@@ -313,6 +323,7 @@ body {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
+    padding-left: 0;
 }
 
 .main-list {
@@ -320,6 +331,8 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding-left: 0;
+    margin: auto;
 }
 
 .main-item {
@@ -341,6 +354,7 @@ body {
     color: #2e2f42;
     margin-bottom: 8px;
     
+    
 }
 
 .main-titul {
@@ -348,6 +362,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: auto;
 }
 
 .footer {
@@ -382,4 +397,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    padding-left: 0;
+    max-width: 264px;
 }
