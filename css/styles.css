@@ -226,7 +226,7 @@ body {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 8px;
-    margin: 0 auto;
+    padding-left: 0;
 }
 
 .features-item {
